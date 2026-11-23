@@ -1,4 +1,4 @@
-# Week 4 — Data Explorer MCP Server
+# Week 5 — Data Explorer MCP Server
 
 **Student:** Yusuf Irmak
 **Tools used:** Claude Code (implementation, and as the MCP client), Python 3.12, `mcp` 1.30 (`FastMCP`), `httpx`

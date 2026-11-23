@@ -1,4 +1,4 @@
-"""Data Explorer — MCP server for Week 4.
+"""Data Explorer — MCP server for Week 5.
 
 Exposes country data to an agent as two MCP tools over STDIO:
 

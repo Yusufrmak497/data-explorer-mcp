@@ -1,4 +1,4 @@
-# Data Explorer — MCP Server (Week 4)
+# Data Explorer — MCP Server (Week 5)
 
 A `FastMCP` server, run over **STDIO**, that gives an agent two tools for looking up country data.
 
