@@ -63,4 +63,4 @@ error shape, so the model is told how errors look.
   into the agent's context.
 
 ## 4. What I learned
-<!-- Yusuf: 3–5 sentences on controlling what context an agent can reach. -->
+On its own, an agent can only talk from what it already knows; the MCP server gives it two tools to query country data, and it can't touch anything beyond them, so I decide where the boundary is. The most surprising part was that all 34 tests passed, yet the first real agent run returned Mexico for "united": my tests only covered the cases I had thought of, while the agent used the tool in a way I hadn't. The broken starter taught the same lesson, because external APIs can change without warning. Error handling matters for the same reason: a crash would have killed the agent's session and a long stack trace would have filled its context with noise, but a short message like "no country found" lets it understand the problem and answer the user properly.
